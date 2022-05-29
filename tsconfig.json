@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES5"
+  },
+  "include": [
+    "src",
+    "webpack"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

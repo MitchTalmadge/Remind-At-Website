@@ -1,0 +1,1 @@
+export default [/meet\.google\.com/, /foobar\.com/]

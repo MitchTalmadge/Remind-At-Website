@@ -1,0 +1,16 @@
+{
+  "name": "Remind at Website",
+  "description": "Reminds you of something when you visit specific websites.",
+  "version": "1.0",
+  "manifest_version": 3,
+
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["dist/content.js"]
+    }
+  ],
+  "permissions": [
+    "storage"
+  ]
+}
